@@ -1,0 +1,11 @@
+What it does :
+	* Creates a folder "mysqld" in /var/run
+	* Starts the lampp server located in the /opt/lampp folder
+	* Creates a link of "mysql.sock" file named "mysqld.sock" in the folder created in the first step.
+
+What it solves : 
+	* Mysql server of lampp has got problem to connect to other application like Django, Netbeans etc
+	* To run, copy the start_lampp file anywhere on your system and write
+		sudo ./start_lampp
+	and press enter. It will ask for your sudo password. 
+	* It is tested on Ubuntu ( can use on other linux OS if the file location is same).
